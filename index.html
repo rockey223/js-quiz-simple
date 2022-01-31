@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="content">
+            
+            <div id="primary">
+                <div class="main-box">
+            <h1>Welcome to quiz game</h1>
+            <p>Please enter your name</p>
+            <input type="text" id="username" value="">
+            <button id="start" onclick="validate()">Start</button>
+        </div>
+            </div>
+        
+
+        <div class="second-box hide" id="secondary">
+            <div class="question-list" >
+                <p class="heading">Best Of Luck</p>
+                <div class="first">
+                   <div class="question">
+                    1. What does HTML stands for?
+                   </div>
+                    <div class="answer">
+                    <input type="radio" name="answer1" >Hyper Task Makeup Language <br>
+                    <input type="radio" name="answer1" >Hyper Text Makeup Language <br>
+                    <input type="radio" name="answer1" >Hyper Text Markup Language <br>
+                    <input type="radio" name="answer1" >Hyper Test Markup Language
+                    </div>   
+                </div>
+                <div class="second">
+                    <div class="question">
+                        2. What does CSS stands for?
+                    </div>
+                    <div class="answer">
+                    <input type="radio" name="answer2" >Caption Style Sheet <br>
+                    <input type="radio" name="answer2" >Cascading Style Sheet <br>
+                    <input type="radio" name="answer2" >Cascading Soft Sheet <br>
+                    <input type="radio" name="answer2" >Cascading Sheet Style <br>
+                    </div>   
+                </div>
+                <div class="third">
+                    <div class="question">
+                        3. Which of the following is red?
+                    </div>
+                    <div class="answer">
+                    <input type="radio" name="answer3" >Red <br>
+                    <input type="radio" name="answer3" >Green <br>
+                    <input type="radio" name="answer3" >Yellow <br>
+                    <input type="radio" name="answer3" >Blue
+                    </div>   
+                </div>
+                <button type="submit" onclick="calc()">Submit</button>
+                <div class="score">
+                    <p id="score-display"> </p>
+                </div> 
+            </div>
+        </div>
+           
+        </div>
+    </div>
+
+
+
+</body>
+</html>

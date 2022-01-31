@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+.container .content .main-box{
+    background-color: green;
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.container .content .main-box h1{
+    font-size: 50px;
+}
+.container .content .main-box p{
+    font-weight: 900;
+    font-size: 30px;
+}
+.container .content .main-box input{
+    height: 35px;
+    width: 10em;
+    font-size: 30px;
+}
+.container .content .main-box button{
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+
+.container .content .question-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: yellow;
+    height: 750px;
+    width: 500px;
+}
+.container .content .question-list .heading{
+    font-size: 40px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+.container .content .question-list .question{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container .content .question-list .answer{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 5px 0 0 20px;
+}
+
+.container .content .question-list button{
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    width: 150px;
+    border-radius: 25px;
+    left: 175px;
+    
+}
+.container .content .question-list .first,
+.container .content .question-list .second,
+.container .content .question-list .third{
+    position: relative;
+    padding: 10px;
+    
+}
+
+.container .content .question-list .score p{
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+    left: 125px;
+}
+
+
+.hide{
+    display: none;
+}
