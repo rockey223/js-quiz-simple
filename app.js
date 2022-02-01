@@ -13,7 +13,9 @@ function validate(){
 
 function quiz(){
     document.getElementById("primary").classList.add("hide");
-    document.getElementById("secondary").classList.remove("hide");       
+    document.getElementById("restart").classList.add("hide");
+    document.getElementById("secondary").classList.remove("hide");
+          
 }
 
 function calc(){
@@ -30,8 +32,17 @@ function calc(){
     if(answer3[0].checked){
         score++;   
     }
-    document.getElementById('score-display').innerText = "your Score is " + score + ".";
+    
+    display(score);
 
        
 }
 
+
+function display(score){
+
+    document.getElementById("secondary").classList.add("hide");
+    document.getElementById("restart").classList.remove("hide");
+    document.getElementById('score-display').innerText = "your Score is " + score + ".";
+
+}
