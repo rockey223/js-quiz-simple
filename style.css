@@ -94,7 +94,78 @@
     left: 125px;
 }
 
+.container .content .score p{
+    font-size: 30px;
+}
+
+
+.container .content .score button
+{
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 150px;
+    border-radius: 25px;
+}
+
 
 .hide{
     display: none;
+}
+
+
+
+@media screen and (max-width:375px) {
+    .container .content .main-box{
+        width: 100%;
+    }
+    .container .content .main-box h1{
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    .container .content .main-box p{
+        
+        font-size: 20px;
+    }
+
+    .container .content .main-box input{
+        
+        width: 5em;
+        font-size: 30px;
+    }
+
+
+    .container .content .question-list {
+        
+        height: 100vh;
+        width: 100%;
+    }
+
+    .container .content .question-list .heading{
+        font-size: 40px;
+        margin-top: 25px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container .content .question-list .question{
+        font-size: 25px;
+        
+    }
+    
+    .container .content .question-list button{
+        position: relative;
+        top: 0px;
+        left: 125px;
+    }
+
+
+
+
+
+
+
+
 }
